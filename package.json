@@ -1,0 +1,28 @@
+{
+  "name": "witnetrequest2sheikahtemplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "bin": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "fmt": "prettier-standard --check '{src,test}/**/*.{t,j}s'",
+    "fmt!": "prettier-standard '{src,test}/**/*.{t,j}s'",
+    "test": "jest --colors"
+  },
+  "keywords": [],
+  "author": "Tomás Ruiz <tomastrg22@gmail.com> (https://github.com/tommytrg)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.20",
+    "jest": "^24.9.0",
+    "prettier-standard": "^16.1.0",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/cbor": "^5.0.0",
+    "cbor": "^5.0.1",
+    "colors": "^1.4.0"
+  }
+}
