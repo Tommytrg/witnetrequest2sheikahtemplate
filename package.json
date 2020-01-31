@@ -1,6 +1,6 @@
 {
   "name": "witnetrequest2sheikahtemplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/src/index.js",
   "bin": "dist/src/index.js",
@@ -10,7 +10,7 @@
     "fmt!": "prettier-standard '{src,test}/**/*.{t,j}s'",
     "test": "jest --colors"
   },
-  "keywords": [],
+  "keywords": ["witnet", "sheikah", "request", "template", "blockchain", "don", "oracles", "cli"],
   "author": "Tomás Ruiz <tomastrg22@gmail.com> (https://github.com/tommytrg)",
   "license": "MIT",
   "devDependencies": {
