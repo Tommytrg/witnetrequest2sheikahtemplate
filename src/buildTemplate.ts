@@ -7,7 +7,7 @@ function buildTemplateFromRequest (request: Request): Template {
     name: 'Data request',
     description: 'description',
     radRequest: {
-      notBefore: dr.time_lock,
+      timelock: dr.time_lock,
       retrieve: dr.retrieve.map((stage: EncodeRetrieveStage) => {
         return {
           ...stage,
