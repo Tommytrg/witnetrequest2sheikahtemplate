@@ -2,7 +2,7 @@
   "name": "Data request",
   "description": "description",
   "radRequest": {
-    "notBefore": 1669852800,
+    "timelock": 1669852800,
     "retrieve": [
       {
         "kind": "HTTP-GET",

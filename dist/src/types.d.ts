@@ -19,7 +19,7 @@ declare type Template = {
     name: string;
     description: string;
     radRequest: {
-        notBefore: number;
+        timelock: number;
         retrieve: Array<{
             kind: string;
             url: string;

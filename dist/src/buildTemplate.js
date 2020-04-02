@@ -29,7 +29,7 @@ function buildTemplateFromRequest(request) {
         name: 'Data request',
         description: 'description',
         radRequest: {
-            notBefore: dr.time_lock,
+            timelock: dr.time_lock,
             retrieve: dr.retrieve.map(function (stage) {
                 return __assign(__assign({}, stage), { script: cbor_1.default.decodeFirstSync(stage.script.map(function (op) { return op.toString(16); }).join('')) });
             }),
